@@ -137,7 +137,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
 
 
 	//main
-    public static void main(String[] args) {
+    public static void main(String[] args) {//bbb
 
         try {
             //connect to the registry
