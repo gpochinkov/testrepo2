@@ -83,8 +83,8 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         double interestParse;
         try {
-            interestParse = Double.parseDouble(this.interest.getText());
-        } catch (NumberFormatException ex) {
+            interestParse = Double.parseDouble(this.interest.getText());//fghgfhfghfgh
+        } catch (NumberFormatException ex) {//rtyrytrtyrt
             JOptionPane.showMessageDialog(null, "Anual Interest Rate трябва да бъде положително число!");
             return;
         }
@@ -134,17 +134,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
         }
     }
 
-    private void displayMessage(final String messageToDisplay) {
-        SwingUtilities.invokeLater(
-                new Runnable() {
 
-                    public void run() // updates displayArea
-                    {
-                        log.append(messageToDisplay); // append message
-                    } // end method run
-                } // end anonymous inner class
-                ); // end call to SwingUtilities.invokeLater
-    }
 
 	//main
     public static void main(String[] args) {
