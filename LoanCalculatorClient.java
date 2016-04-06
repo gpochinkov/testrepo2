@@ -30,9 +30,9 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
 
     public LoanCalculatorClient(CalculateLoan service) {
 
-        rnd = new Random();
+        rnd = new Random();//dfgfgdfgdfgdfgdg
 
-        setTitle(String.format("Client No%d", rnd.nextInt(100)));
+        setTitle(String.format("Client No%d", rnd.nextInt(100)));//dfgdgfd
 
         this.service = service;
 
