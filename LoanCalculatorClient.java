@@ -1,8 +1,8 @@
 
-import java.awt.BorderLayout;111
+import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.;2222
+import java.awt.event.;
 import ja;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
