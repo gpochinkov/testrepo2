@@ -28,7 +28,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
     private JComboBox rateList;
     private Random rnd;
 
-    public LoanCalculatorClient(CalculateLoan service) {sadsddsa
+    public LoanCalculatorClient(CalculateLoan service) {
 
         rnd = new Random();
 
@@ -80,7 +80,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {blaaasdsd
+    public void actionPerformed(ActionEvent e) {
         double interestParse;
         try {
             interestParse = Double.parseDouble(this.interest.getText());
