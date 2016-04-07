@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 
 public class LoanCalculatorClient extends JFrame implements ActionListener {ffdgdfgdf
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;remote
     private CalculateLoan service;
     private JTextField interest;
     private JTextField years;
