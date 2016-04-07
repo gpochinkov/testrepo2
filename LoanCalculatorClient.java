@@ -1,5 +1,5 @@
 
-import java.awt.BorderLayout;111
+import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.;
@@ -9,12 +9,12 @@ import java.rmi.registry.Registry;
 import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JFrame;2222
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextArea;3333
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.SwingUtilities;4444
+import javax.swing.SwingUtilities;
 import javax.swing.JOptionPane;
 
 public class LoanCalculatorClient extends JFrame implements ActionListener {
