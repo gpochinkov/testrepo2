@@ -2,7 +2,7 @@
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.;
+import java.awt.event.;2222
 import ja;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
