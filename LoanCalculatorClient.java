@@ -47,7 +47,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
 
         inputP.add(new JLabel("Number Of Years:"));
         years = new JTextField();
-        years.setHorizontalAlignment(JTextField.RIGHT);
+        years.setHorizontalAlignment(JTextField.RIGHT);sdfsdfdsfs
         inputP.add(years);
 
         inputP.add(new JLabel("Loan Amount:"));
