@@ -28,7 +28,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
     private JComboBox rateList;
     private Random rnd;
 
-    public LoanCalculatorClient(CalculateLoan service) {bbbbbbbbbbb
+    public LoanCalculatorClient(CalculateLoan service) {
 
         rnd = new Random();
 
@@ -47,7 +47,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
 
         inputP.add(new JLabel("Number Of Years:"));
         years = new JTextField();
-        years.setHorizontalAlignment(JTextField.RIGHT);sdfsdfdsfs
+        years.setHorizontalAlignment(JTextField.RIGHT);
         inputP.add(years);
 
         inputP.add(new JLabel("Loan Amount:"));
