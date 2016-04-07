@@ -1,6 +1,6 @@
 
-import java.awt.BorderLayout;asd
-import java.awt.GridLayout;45454
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.rmi.RemoteException;
@@ -17,10 +17,10 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.JOptionPane;
 
-public class LoanCalculatorClient extends JFrame implements ActionListener {ffdgdfgdf
+public class LoanCalculatorClient extends JFrame implements ActionListener {
 
-    private static final long serialVersionUID = 1L;local2
-    private CalculateLoan service;remote2
+    private static final long serialVersionUID = 1L;
+    private CalculateLoan service;
     private JTextField interest;
     private JTextField years;
     private JTextField amount;
@@ -28,11 +28,11 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {ffdg
     private JComboBox rateList;
     private Random rnd;
 
-    public LoanCalculatorClient(CalculateLoan service) {blaaa
+    public LoanCalculatorClient(CalculateLoan service) {
 
-        rnd = new Random();//dfgfgdfgdfgdfgdg
+        rnd = new Random();
 
-        setTitle(String.format("Client No%d", rnd.nextInt(100)));//dfgdgfd
+        setTitle(String.format("Client No%d", rnd.nextInt(100)));
 
         this.service = service;
 
@@ -83,8 +83,8 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {ffdg
     public void actionPerformed(ActionEvent e) {blaaasdsd
         double interestParse;
         try {
-            interestParse = Double.parseDouble(this.interest.getText());//fghgfhfghfgh
-        } catch (NumberFormatException ex) {//rtyrytrtyrt
+            interestParse = Double.parseDouble(this.interest.getText());
+        } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(null, "Anual Interest Rate трябва да бъде положително число!");
             return;
         }
@@ -136,8 +136,8 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {ffdg
 
 
 
-	//main
-    public static void main(String[] args) {//bbb
+
+    public static void main(String[] args) {
 
         try {
             //connect to the registry
