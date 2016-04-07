@@ -80,7 +80,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e) {qweqwewqe
         double interestParse;
         try {
             interestParse = Double.parseDouble(this.interest.getText());
