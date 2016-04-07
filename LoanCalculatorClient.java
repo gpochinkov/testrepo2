@@ -12,9 +12,9 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;2222
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextArea;
+import javax.swing.JTextArea;3333
 import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
+import javax.swing.SwingUtilities;4444
 import javax.swing.JOptionPane;
 
 public class LoanCalculatorClient extends JFrame implements ActionListener {
