@@ -28,7 +28,7 @@ public class LoanCalculatorClient extends JFrame implements ActionListener {sdfs
     private JComboBox rateList;
     private Random rnd;
 
-    public LoanCalculatorClient(CalculateLoan service) {
+    public LoanCalculatorClient(CalculateLoan service) {bbbbbbbbbbb
 
         rnd = new Random();
 
