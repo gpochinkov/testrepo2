@@ -9,7 +9,7 @@ import java.rmi.registry.Registry;
 import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JFrame;
+import javax.swing.JFrame;2222
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
